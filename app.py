@@ -54,8 +54,7 @@ gently steer the conversation back to how you can help with cybersecurity."""
 @app.route("/")
 def index():
     """Serve the main chat frontend."""
-    return "Working...!"
-   #render_template("templates/index.html")
+    return render_template("templates/index.html")
 
 
 @app.route("/get_response", methods=["POST"])

@@ -18,7 +18,7 @@ MODEL_NAME = "llama-3.3-70b-versatile"
 # ---------------------------------------------------------------------------
 # System persona / guardrails
 # ---------------------------------------------------------------------------
-SYSTEM_PROMPT = """You are CyberGuard AI, a practical, friendly cybersecurity assistant.
+SYSTEM_PROMPT = """You are ByteBack AI, a practical, friendly cybersecurity assistant.
 
 Your job is to help everyday users with:
 - Identifying and handling phishing emails/messages

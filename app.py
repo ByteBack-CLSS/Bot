@@ -85,6 +85,9 @@ def get_response():
         app.logger.error("Groq API error: %s", exc)
 
     return jsonify({"reply": reply})
+@app.route("/health")
+def health():
+    return jsonify({"ok": True})
 
 
 if __name__ == "__main__":
